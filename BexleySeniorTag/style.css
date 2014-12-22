@@ -1,0 +1,64 @@
+* {margin:0; padding:0; outline:0; border:0;}
+@font-face {  
+  font-family: Abadi ;  
+  src: url(fonts/Abadi.ttf) format("truetype");  
+}  
+ 
+/* Then use it like you would any other font */  
+.yourFontName { font-family: yourFontName , verdana, helvetica, sans-serif;  
+}
+
+
+body {background-image:url(images/bg3.jpg); background-repeat:no-repeat; background-position: top; background-color:black;}
+h1 {color:white;}
+b { font-weight:2000; font-size:13px;}
+
+.clear {clear:both;}
+.clear_left {clear:left;}
+
+
+#page_wrap {width:960px; margin:0 auto;}
+
+#header {height:140px; margin-bottom:30px;}
+	#header img {float:right; margin-left:10px; margin-top:5px;}
+#footer {padding-top:50px;}
+	#footer p { color:white; font-family: Century Gothic, Tahoma, Geneva, sans-serif; font-size:10px;}
+	#footer a:link { text-decoration:underline; color:white;}
+		#footer a:hover {
+		color:  yellow;
+		text-decoration:underline;
+		}
+		
+#left {float:left; width:180px;  margin-top:30px;}
+#middle{float:left; width:600px;}
+#right {float:right; width:174px; margin-left:6px; margin-top:30px;}
+#footer {height:150px;width:960px;}
+
+
+table.table1     { color:white; background: rgba(0, 0, 0, 0.5); border-right: rgba(0, 255, 252, 0.6);border-collapse: collapse; }
+table.table1 tr th { height:30px; text-align:center; font-family: Century Gothic, Tahoma, Geneva, sans-serif; font-size:14px; text-transform: uppercase; font-weight:bold; border-bottom: 4px double rgba(0, 255, 252, 0.5); background: rgba(0, 0, 0, 0.8); }
+table.table1 tr th a {margin-left: 2px;}
+table.table1  td {height:30px;  text-align:left; font-family: Century Gothic, Tahoma, Geneva, sans-serif; font-size:12px; font-weight:100;text-transform: none; padding:10px;border-right: 2px solid rgba(0, 255, 252, 0.3);border-left: 2px solid rgba(0, 255, 252, 0.3);}
+tr:nth-of-type(even) {
+	background: rgba(0, 0, 0, 0.3);}
+
+
+table.table2  { color:white; background: rgba(0, 0, 0, 0.5);border-collapse: collapse; width:174px; }
+table.table2 tr td {text-align:left; font-family: Century Gothic, Tahoma, Geneva, sans-serif; font-size:12px; font-weight:100;text-transform: none; padding:10px;border-bottom: 2px solid rgba(0, 255, 252, 0.5); }
+
+table.table3  { color:white; background: rgba(0, 0, 0, 0.5);border-collapse: collapse; width:174px; }
+table.table3 tr td {text-align:left; font-family: Century Gothic, Tahoma, Geneva, sans-serif; font-size:14px; font-weight:bold; text-transform: uppercase; padding:10px;}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,1);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,255,252,0.8);
+}	
